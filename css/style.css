@@ -107,3 +107,28 @@ footer a {
     clear: both;
 }
 
+div ul {
+  color: #000;
+  font-size: 18px;
+  text-decoration: none;
+  list-style-type: none;
+  text-align: left;
+  
+}
+
+li#text-area {
+  width: 100%;
+  padding: 5px;
+  border: #000;
+  box-sizing: border-box;
+  resize: vertical;
+}
+
+li#submit {
+  background-color: #4CAF50;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}

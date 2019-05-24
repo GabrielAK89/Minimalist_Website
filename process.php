@@ -1,9 +1,10 @@
 <?php
-if (isset($_POST('submit'))) {
+if(isset($_POST['submit'])) {
+    echo $_POST['subject'];
     $to = "gabrielak89@gmail.com";
-    $subject = $_POST('subject');
-    $email = $_POST('email');
-    $txt = $_POST('message');
+    $subject = $_POST['subject'];
+    $email = $_POST['email'];
+    $txt = $_POST['message'];
     $headers = "From: " . $mail . "/r/n";
     "CC: gabrielacatrinei89@gmail.com";
 
@@ -12,5 +13,3 @@ if (isset($_POST('submit'))) {
     header("Location: contact.html");
 }
 ?>
-
-.

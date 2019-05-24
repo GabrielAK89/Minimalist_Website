@@ -1,68 +1,98 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="stylesheet" href="css/style.css">
-    <script src="js/scripts.js"></script>
-    <title>Contact</title>
-</head>
-
-<body id="contact">
-    <div class="container">
-        <header class="header">
-            <a class="link-title" href="index.html">Minimalistic Website</a>
-            <!-- <a href="contact.html">Contact</a> -->
-        </header>
-
-        <nav class="menu">
-            <a href="index.html">Home</a>&nbsp;&nbsp;&nbsp;&nbsp;
-            <a href="about.html">About us</a>&nbsp;&nbsp;&nbsp;&nbsp;
-            <a href="contact.html">Contact</a>
-        </nav>
-
-        <aside>
-            <h1>Side Bar</h1>
-        </aside>
-
-        <article class="main">
-            <!-- <img src="http://placehold.it/300x200" alt="PlaceHolder image"> -->
-            <h1 class="page-heading">Contact</h1><br>
-
-            <div id="form">
-                <form method="POST" action="process.php">
-                    <p>
-                        <label for="name"></label>Name:
-                        <input type="text" name="name" placeholder="Your Name" required>
-                    </p>
-                    <p>
-                        <label for="email"></label>Email:
-                        <input type="text" name="email" placeholder="Your Email:" required>
-                    </p>
-                    <p>
-                        <label for="subject"></label>Subject:
-                        <input type="text" name="subject" placeholder="What is the subject:" required>
-                    </p>
-                    <p>
-                        <label for="message"></label>Message:
-                        <textarea name="body" id="message" cols="30" rows="10" placeholder="Message:"
-                            required></textarea>
-                    </p>
-                    <p>
-                        <input id="submit" type="submit" value="Send message" name="submit">
-                    </p>
-                </form>
-            </div>
-        </article>
-
-        <footer>
-            &copy; 2019 Minimalist Website &nbsp; <span class="separator">|</span> Design by <a
-                href="https://gabrielak89.github.io/Minimalist_Website/">Gabriel Acatrinei</a>
-        </footer>
-
-    </div>
-</body>
-
+    <head>
+        <meta charset="utf-8">
+            <meta content="width=device-width, initial-scale=1.0" name="viewport">
+                <meta content="ie=edge" http-equiv="X-UA-Compatible">
+                    <link href="css/style.css" rel="stylesheet">
+                        <script src="js/scripts.js">
+                        </script>
+                        <title>
+                            Contact
+                        </title>
+                    </link>
+                </meta>
+            </meta>
+        </meta>
+    </head>
+    <body id="contact">
+        <div class="container">
+            <header class="header">
+                <a class="link-title" href="index.html">
+                    Minimalistic Website
+                </a>
+                <!-- <a href="contact.html">Contact</a> -->
+            </header>
+            <nav class="menu">
+                <a href="index.html">
+                    Home
+                </a>
+                <a href="about.html">
+                    About us
+                </a>
+                <a href="contact.html">
+                    Contact
+                </a>
+            </nav>
+            <aside>
+                <h1>
+                    Side Bar
+                </h1>
+            </aside>
+            <article class="main">
+                <!-- <img src="http://placehold.it/300x200" alt="PlaceHolder image"> -->
+                <h1 class="page-heading">
+                    Contact
+                </h1>
+                <br>
+                    <div id="form">
+                        <form action="process.php" method="POST">
+                            <p>
+                                <label for="name">
+                                </label>
+                                Name:
+                                <input name="name" placeholder="Your Name" required="" type="text">
+                                </input>
+                            </p>
+                            <p>
+                                <label for="email">
+                                </label>
+                                Email:
+                                <input name="email" placeholder="Your Email:" required="" type="text">
+                                </input>
+                            </p>
+                            <p>
+                                <label for="subject">
+                                </label>
+                                Subject:
+                                <input name="subject" placeholder="What is the subject:" required="" type="text">
+                                </input>
+                            </p>
+                            <p>
+                                <label for="message">
+                                </label>
+                                Message:
+                                <textarea cols="30" id="message" name="body" placeholder="Message:" required="" rows="10">
+                                </textarea>
+                            </p>
+                            <p>
+                                <input id="submit" name="submit" type="submit" value="Send message">
+                                </input>
+                            </p>
+                        </form>
+                    </div>
+                </br>
+            </article>
+            <footer>
+                © 2019 Minimalist Website
+                <span class="separator">
+                    |
+                </span>
+                Design by
+                <a href="https://gabrielak89.github.io/Minimalist_Website/">
+                    Gabriel Acatrinei
+                </a>
+            </footer>
+        </div>
+    </body>
 </html>

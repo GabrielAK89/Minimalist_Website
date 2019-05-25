@@ -33,7 +33,7 @@
             <h1 class="page-heading">Contact</h1><br>
 
             <div id="form">
-                <form method="POST" action="process.php">
+                <form method="POST">
                     <fieldset>
                         <label for="name">Name:</label>
                         <input type="text" name="name" placeholder="Your Name" required><br>
@@ -47,10 +47,10 @@
                         <label for="gender">Gender:</label><br>
 
                         <label for="gender">Male</label>
-                        <input type="radio" name="gender" id="radio">
+                        <input type="radio" name="gender" id="radio" value="male">
 
                         <label for="gender">Female</label>
-                        <input type="radio" name="gender" id="radio">
+                        <input type="radio" name="gender" id="radio" value="female">
 
                         <label for="country">Country of origin</label>
                         <select>
@@ -309,7 +309,7 @@
                         <textarea name="body" id="message" cols="30" rows="10" placeholder="Message:"
                             required></textarea>
 
-                        <input id="submit" type="submit" value="Send message" name="submit">
+                        <input type="submit" value="Send message">
                     </fieldset>
                 </form>
             </div>
